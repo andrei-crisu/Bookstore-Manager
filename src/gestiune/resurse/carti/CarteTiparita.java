@@ -38,10 +38,10 @@ public class CarteTiparita extends Carte {
 		this.numarCartiDisponibile++;
 	}
 	
-	public void afiseazaCarte()
+	public void afiseazaCarte(char ch)
 	{
 		System.out.println("--- ("+this.numarCartiDisponibile+"/"+this.numarCartiExistente+") --- ");
-		super.afisareCompactaCarte();
+		super.ArataInformatii(ch);
 		System.out.println("-----------------");
 	}
 	

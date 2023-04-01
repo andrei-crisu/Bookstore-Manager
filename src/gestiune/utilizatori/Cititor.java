@@ -92,7 +92,7 @@ public class Cititor extends Persoana {
 		System.out.println("Carti imprumutate: ("+this.nrCartiImprumutate+"/"+this.NR_MAX_CARTI_IMPRUMUTATE+")");
 		for(int i=0;i<this.cartiImprumutate.size();i++)
 		{
-			this.cartiImprumutate.get(i).afisareCompactaCarte();
+			this.cartiImprumutate.get(i).ArataInformatii('c');
 		}
 	}
 
