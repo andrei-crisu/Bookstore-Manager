@@ -15,7 +15,7 @@ public class Inventar {
 	public void afiseazaInventar() {
 		System.out.println("--- INVENTAR ---");
 		for (int i = 0; i < cartiBiblioteca.size(); i++)
-			cartiBiblioteca.get(i).afiseazaCarte();
+			cartiBiblioteca.get(i).ArataInformatii('c');
 		System.out.println("----------------");
 	}
 
